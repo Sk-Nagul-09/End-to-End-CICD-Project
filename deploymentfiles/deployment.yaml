@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
         - name: fb-pod-cont
-          image: nagul09/cicd-e-t-end-pro:4
+          image: nagul09/cicd-e-t-end-pro:5
           ports:
             - containerPort: 8080
