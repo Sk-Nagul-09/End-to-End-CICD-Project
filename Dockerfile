@@ -9,4 +9,4 @@ FROM tomcat
 WORKDIR webapps
 COPY --from=buildstage /opt/mindcircuit16d/target/*.war .
 RUN rm -rf ROOT && mv *.war ROOT.war
-EXPOSE 8080
+EXPOSE 8081
